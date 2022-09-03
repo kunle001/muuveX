@@ -1,0 +1,35 @@
+{
+  "name": "moovex",
+  "version": "1.0.0",
+  "description": "an api for an apartment finder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunle001/mooveX.git"
+  },
+  "author": "Olanipekun Adekunle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunle001/mooveX/issues"
+  },
+  "homepage": "https://github.com/kunle001/mooveX#readme",
+  "dependencies": {
+    "@agm/core": "^3.0.0-beta.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
+    "nodemailer": "^6.7.8",
+    "passport-google-oauth": "^2.0.0",
+    "passport-twitter": "^0.1.5",
+    "satelize": "^0.2.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "^3.43.3"
+  }
+}
